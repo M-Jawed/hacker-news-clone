@@ -27,6 +27,10 @@ a:visited {
   height: 12px;
 }
 
+header .flex {
+  width: 100%;
+}
+
 header .flex a {
   color: black;
 }
@@ -140,6 +144,8 @@ input {
 }
 
 .header-title {
+  display: flex;
+  align-items: center;
   font-weight: 700;
   margin-left: 0.25rem;
   margin-right: 5px;
@@ -150,7 +156,10 @@ input {
 
 .header-logo {
   height: 18px;
-  margin-bottom: -1.5px;
+  width: 20px;
+  margin-right: 5px;
+  height: 20px;
+  border: 1px solid white;
 }
 
 .header-link {
